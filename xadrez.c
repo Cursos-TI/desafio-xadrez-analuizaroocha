@@ -30,15 +30,10 @@ int main() {
         r++;
     } while (r < casasRainha);
 
-    return 0;
-
-
-// --- Movimentação do Cavalo (Nível Aventureiro) ---
+    // --- Movimentação do Cavalo (Nível Aventureiro) ---
+    // Note que agora ele está ANTES do único return 0;
     printf("\nMovimento do Cavalo:\n");
-
-    // Requisito: Loops aninhados (for e while)
-    // Movimento: 2 para baixo e 1 para a esquerda
-   for (int i = 0; i < 1; i++) { 
+    for (int i = 0; i < 1; i++) {
         int j = 0;
         while (j < 2) {
             printf("Baixo\n");
